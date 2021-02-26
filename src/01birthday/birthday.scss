@@ -140,7 +140,7 @@ main {
   align-items: center;
 }
 
-.container {
+.containerb {
   width: 90vw;
   margin: 5rem 0;
   max-width: var(--fixed-width);
@@ -149,7 +149,7 @@ main {
   padding: 1.5rem 2rem;
   box-shadow: var(--dark-shadow);
 }
-.container h3 {
+.containerb h3 {
   font-weight: normal;
   text-transform: none;
   margin-bottom: 2rem;
@@ -174,7 +174,8 @@ main {
 .person p {
   margin-bottom: 0;
 }
-.container button {
+
+.bbutton {
   color: var(--clr-white);
   display: block;
   width: 100%;

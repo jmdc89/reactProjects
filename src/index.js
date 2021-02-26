@@ -6,8 +6,8 @@ import Reviews from './03reviews/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <BirthdayApp /> */}
-    {/* <Tours/> */}
+    {/* <BirthdayApp />
+    <Tours/> */}
     <Reviews/>
   </React.StrictMode>,
   document.getElementById('root')

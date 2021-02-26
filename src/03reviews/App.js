@@ -1,16 +1,16 @@
 import React from 'react';
 import Review from './Review';
-import './index.css';
+import './review.scss';
 
 
 
 function App() {
   return (
       <main>
-          <section className='container'>
-              <div className='title'>
+          <section className='containerr'>
+              <div className='titler'>
                   <h2>our reviews</h2>
-                  <div className='underline'></div>
+                  <div className='underliner'></div>
               </div>
               <Review/>
           </section>

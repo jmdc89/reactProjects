@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Loading from './Loading';
 import Tours from './Tours';
-import './index.css';
+import './tours.scss';
 
 
 
@@ -48,9 +48,9 @@ function App() {
   if(tours.length === 0) {
     return (
         <main>
-            <div className='title'>
+            <div className='titlet'>
                 <h2>no tours left</h2>
-                <button className= 'btn' onClick={fetchTours}>refresh</button>
+                <button className= 'btnt' onClick={fetchTours}>refresh</button>
             </div>
         </main>
     )
