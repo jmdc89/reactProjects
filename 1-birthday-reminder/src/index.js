@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './01birthday/index.css';
-import App from './01birthday/App';
+import BirthdayApp from './01birthday/App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BirthdayApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
