@@ -124,14 +124,14 @@ p {
 /*  global classes */
 
 /* section */
-.section {
+.section-m {
   width: 90vw;
   margin: 0 auto;
   max-width: var(--max-width);
 }
 
 @media screen and (min-width: 992px) {
-  .section {
+  .section-m {
     width: 95vw;
   }
 }
@@ -142,26 +142,26 @@ Menu
 ===============
 */
 
-.menu {
+.menu-m {
   padding: 5rem 0;
 }
-.title {
+.title-m {
   text-align: center;
   margin-bottom: 2rem;
 }
-.underline {
+.underline-m {
   width: 5rem;
   height: 0.25rem;
   background: var(--clr-gold);
   margin-left: auto;
   margin-right: auto;
 }
-.btn-container {
+.btn-container-m {
   margin-bottom: 4rem;
   display: flex;
   justify-content: center;
 }
-.filter-btn {
+.filter-btn-m {
   background: transparent;
   border-color: transparent;
   font-size: 1rem;
@@ -174,11 +174,11 @@ Menu
   transition: var(--transition);
   border-radius: var(--radius);
 }
-.filter-btn:hover {
+.filter-btn-m:hover {
   background: var(--clr-gold);
   color: var(--clr-white);
 }
-.section-center {
+.section-center-m {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
@@ -186,12 +186,12 @@ Menu
   gap: 3rem 2rem;
   justify-items: center;
 }
-.menu-item {
+.menu-item-m {
   display: grid;
   gap: 1rem 2rem;
   max-width: 25rem;
 }
-.photo {
+.photo-m {
   object-fit: cover;
   height: 200px;
   width: 100%;
@@ -199,38 +199,38 @@ Menu
   border-radius: var(--radius);
   display: block;
 }
-.item-info header {
+.item-info-m header {
   display: flex;
   justify-content: space-between;
   border-bottom: 0.5px dotted var(--clr-grey-5);
 }
-.item-info h4 {
+.item-info-m h4 {
   margin-bottom: 0.5rem;
 }
-.price {
+.price-m {
   color: var(--clr-gold);
 }
-.item-text {
+.item-text-m {
   margin-bottom: 0;
   padding-top: 1rem;
 }
 
 @media screen and (min-width: 768px) {
-  .menu-item {
+  .menu-item-m {
     grid-template-columns: 225px 1fr;
     gap: 0 1.25rem;
     max-width: 40rem;
   }
-  .photo {
+  .photo-m {
     height: 175px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .section-center {
+  .section-center-m {
     width: 95vw;
     grid-template-columns: 1fr 1fr;
   }
-  .photo {
+  .photo-m {
     height: 150px;
   }
 }
