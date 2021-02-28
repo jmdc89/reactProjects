@@ -6,6 +6,7 @@ import Reviews from './03reviews/App';
 import Accordion from './04accordion/App';
 import MenuApp from './05menu/App';
 import Tabs from './06tabs/App';
+import Slider from './07slider/App';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,7 +15,8 @@ ReactDOM.render(
     <Reviews/>
     <Accordion/>
     <MenuApp/> */}
-    <Tabs/>
+    {/* <Tabs/> */}
+    <Slider/>
   </React.StrictMode>,
   document.getElementById('root')
 );

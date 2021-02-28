@@ -120,14 +120,14 @@ p {
 /*  global classes */
 
 /* section */
-.section {
+.section-sl {
   width: 90vw;
   margin: 5rem auto;
   max-width: var(--max-width);
 }
 
 @media screen and (min-width: 992px) {
-  .section {
+  .section-sl {
     width: 95vw;
   }
 }
@@ -136,23 +136,23 @@ p {
 Slider
 ===============
 */
-.title {
+.title-sl {
   text-align: center;
   margin-bottom: 2rem;
 }
-.title h2 {
+.title-sl h2 {
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 500;
 }
-.title span {
+.title-sl span {
   font-size: 0.85em;
   color: var(--clr-primary-5);
   margin-right: 1rem;
   font-weight: 700;
 }
-.section-center {
+.section-center-sl {
   margin: 0 auto;
   margin-top: 4rem;
   width: 80vw;
@@ -164,7 +164,7 @@ Slider
   display: flex;
   /* overflow: hidden; */
 }
-.person-img {
+.person-img-sl {
   border-radius: 50%;
   margin-bottom: 1rem;
   width: 150px;
@@ -178,25 +178,25 @@ article h4 {
   color: var(--clr-primary-5);
   margin-bottom: 0.25rem;
 }
-.title {
+.title-sl {
   text-transform: capitalize;
   margin-bottom: 0.75rem;
   color: var(--clr-grey-3);
 }
-.text {
+.text-sl {
   max-width: 35em;
   margin: 0 auto;
   margin-top: 2rem;
   line-height: 2;
   color: var(--clr-grey-5);
 }
-.icon {
+.icon-sl {
   font-size: 3rem;
   margin-top: 1rem;
   color: var(--clr-primary-5);
 }
-.prev,
-.next {
+.prev-sl,
+.next-sl {
   position: absolute;
   top: 200px;
   transform: translateY(-50%);
@@ -212,22 +212,22 @@ article h4 {
   cursor: pointer;
   transition: var(--transition);
 }
-.prev:hover,
-.next:hover {
+.prev-sl:hover,
+.next-sl:hover {
   background: var(--clr-primary-5);
 }
-.prev {
+.prev-sl {
   left: 0;
 }
-.next {
+.next-sl {
   right: 0;
 }
 @media (min-width: 800px) {
-  .text {
+  .text-sl {
     max-width: 45em;
   }
-  .prev,
-  .next {
+  .prev-sl,
+  .next-sl {
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
