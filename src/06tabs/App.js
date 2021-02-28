@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { FaAngleDoubleRight } from 'react-icons/fa'
-// ATTENTION!!!!!!!!!!
-// I SWITCHED TO PERMANENT DOMAIN
+import './tabs.css';
+
 const url = 'https://course-api.com/react-tabs-project'
-function App() {
+
+function Tabs() {
   return <h2>tabs project setup</h2>
 }
 
-export default App
+export default Tabs
