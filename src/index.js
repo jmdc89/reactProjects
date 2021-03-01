@@ -7,6 +7,7 @@ import Accordion from './04accordion/App';
 import MenuApp from './05menu/App';
 import Tabs from './06tabs/App';
 import LoremIpsum from './08loremipsum/App';
+import ColorGenerator from './09colorgenerator/App';
 
 
 ReactDOM.render(
@@ -17,7 +18,8 @@ ReactDOM.render(
     <Accordion/>
     <MenuApp/> */}
     {/* <Tabs/> */}
-   <LoremIpsum/>
+   {/* <LoremIpsum/> */}
+   <ColorGenerator/>
   </React.StrictMode>,
   document.getElementById('root')
 );
