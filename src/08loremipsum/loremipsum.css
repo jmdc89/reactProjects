@@ -121,7 +121,7 @@ p {
 }
 /*  global classes */
 
-.btn {
+.btn-lp {
   text-transform: uppercase;
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
@@ -135,17 +135,17 @@ p {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
-.btn:hover {
+.btn-lp:hover {
   color: var(--clr-primary-5);
   background: var(--clr-primary-8);
   border-color: var(--clr-primary-8);
 }
 /* section */
-.section {
+.section-lp {
   padding: 5rem 0;
 }
 
-.section-center {
+.section-center-lp {
   width: 90vw;
   margin: 0 auto;
   max-width: 40rem;
@@ -153,7 +153,7 @@ p {
   text-align: center;
 }
 @media screen and (min-width: 992px) {
-  .section-center {
+  .section-center-lp {
     width: 95vw;
   }
 }
@@ -171,7 +171,7 @@ h3 {
   text-transform: uppercase;
   color: var(--clr-primary-1);
 }
-.lorem-form {
+.lorem-form-lp {
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   margin-top: 2rem;
@@ -195,6 +195,6 @@ input {
 button {
   background: var(--clr-primary-10);
 }
-.result {
+.result-lp {
   margin-bottom: 2rem;
 }

@@ -6,7 +6,8 @@ import Reviews from './03reviews/App';
 import Accordion from './04accordion/App';
 import MenuApp from './05menu/App';
 import Tabs from './06tabs/App';
-import Slider from './07slider/App';
+import LoremIpsum from './08loremipsum/App';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +17,7 @@ ReactDOM.render(
     <Accordion/>
     <MenuApp/> */}
     {/* <Tabs/> */}
-    <Slider/>
+   <LoremIpsum/>
   </React.StrictMode>,
   document.getElementById('root')
 );
