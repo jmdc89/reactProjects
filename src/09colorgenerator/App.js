@@ -11,7 +11,14 @@ function ColorGenerator() {
   const [list,setList] = useState([]);
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault()
+    try {
+      let colors = new Values(color).all(10)
+      setList(colors)
+    } catch (error) {
+      setError(true)
+      console.log(error)
+    }
   }
 
   return (
