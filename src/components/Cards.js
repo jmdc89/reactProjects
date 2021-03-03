@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from './Card';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 import birthday from '../assets/01birthday.png';
 import tours from '../assets/02tours.png';
@@ -28,12 +28,14 @@ const cards = [
 ]
 
 function Cards() {
+
     return (
+        
         <div className="container d-flex justify-content-center h-100 align-items-center">
             <div className="row">
                 {
                     cards.map( card =>(
-                        <div className="col-md-4" key={card.id}>
+                        <div  className="col-md-4" key={card.id}>
                             <Card title={card.title} image={card.image} route={card.route}/>
                         </div>
                     ))
@@ -41,6 +43,7 @@ function Cards() {
             </div>
             
         </div>
+    
     )
 }
 
