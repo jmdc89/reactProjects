@@ -8,9 +8,11 @@ import ReactDOM from 'react-dom';
 // import Tabs from './06tabs/App';
 // import LoremIpsum from './08loremipsum/App';
 // import ColorGenerator from './09colorgenerator/App';
-import AppCards from './AppCards';
+import AppCards from './components/AppCards';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Router } from 'react-router-dom';
+import { AppRouter } from './components/AppRouter';
 
 
 ReactDOM.render(
@@ -23,7 +25,8 @@ ReactDOM.render(
     {/* <Tabs/> */}
    {/* <LoremIpsum/> */}
    {/* <ColorGenerator/> */}
-   <AppCards/>
+   {/* <AppCards/> */}
+   <AppRouter/>
   </React.StrictMode>,
   document.getElementById('root')
 );

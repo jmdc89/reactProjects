@@ -10,17 +10,20 @@ const cards = [
     {
         id:1,
         title: 'Birthday',
-        image: birthday
+        image: birthday,
+        route: "./birthday"
     },
     {
         id:2,
         title: 'Tours',
-        image: tours
+        image: tours,
+        route: "/tours"
     },
     {
         id:3,
         title: 'Reviews',
-        image: reviews
+        image: reviews,
+        route: "/reviews"
     },
 ]
 
@@ -31,7 +34,7 @@ function Cards() {
                 {
                     cards.map( card =>(
                         <div className="col-md-4" key={card.id}>
-                            <Card title={card.title} image={card.image}/>
+                            <Card title={card.title} image={card.image} route={card.route}/>
                         </div>
                     ))
                 }
