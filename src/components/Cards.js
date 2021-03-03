@@ -27,9 +27,13 @@ function Cards() {
     return (
         <div className="container d-flex justify-content-center h-100 align-items-center">
             <div className="row">
-                <div className="col-md-4">
-                    <Card/>
-                </div>
+                {
+                    cards.map( card =>(
+                        <div className="col-md-4" key={card.id}>
+                            <Card title={card.title} image={card.image}/>
+                        </div>
+                    ))
+                }
             </div>
             
         </div>
