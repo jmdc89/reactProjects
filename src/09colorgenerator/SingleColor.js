@@ -14,16 +14,16 @@ const SingleColor = ({ rgb, weight, index, hexColor }) => {
   }, [alert])
   return (
     <article
-      className={`color ${index > 10 && 'color-light'}`}
+      className={`color-cg ${index > 10 && 'color-light-cg'}`}
       style={{ backgroundColor: `rgb(${bcg})` }}
       onClick={() => {
         setAlert(true)
         navigator.clipboard.writeText(hexValue)
       }}
     >
-      <p className='percent-value'>{weight}%</p>
-      <p className='color-value'>{hexValue}</p>
-      {alert && <p className='alert'>copied to clipboard</p>}
+      <p className='percent-value-cg'>{weight}%</p>
+      <p className='color-value-cg'>{hexValue}</p>
+      {alert && <p className='alert-cg'>copied to clipboard</p>}
     </article>
   )
 }
