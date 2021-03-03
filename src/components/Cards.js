@@ -1,5 +1,6 @@
 import React from 'react'
 import Card from './Card';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import birthday from '../assets/01birthday.png';
 import tours from '../assets/02tours.png';
