@@ -5,6 +5,11 @@ import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
 import birthday from '../assets/01birthday.png';
 import tours from '../assets/02tours.png';
 import reviews from '../assets/03reviews.png';
+import accordion from '../assets/04accordion.png';
+import menu from '../assets/05menu.png';
+import tabs from '../assets/06tabs.png';
+import loremipsum from '../assets/08loremipsum.png';
+import colorgenerator from '../assets/09colorgenerator.png';
 
 const cards = [
     {
@@ -25,6 +30,36 @@ const cards = [
         image: reviews,
         route: "/reviews"
     },
+    {
+        id:4,
+        title: 'Accordion',
+        image: accordion,
+        route: "/accordion"
+    },
+    {
+        id:5,
+        title: 'Menu',
+        image: menu,
+        route: "/menu"
+    },
+    {
+        id:6,
+        title: 'Tabs',
+        image: tabs,
+        route: "/tabs"
+    },
+    {
+        id:7,
+        title: 'Lorem Ipsum',
+        image: loremipsum,
+        route: "/loremipsum"
+    },
+    {
+        id:8,
+        title: 'Color Generator',
+        image: colorgenerator,
+        route: "/colorgenerator"
+    },
 ]
 
 function Cards() {
@@ -35,7 +70,7 @@ function Cards() {
             <div className="row">
                 {
                     cards.map( card =>(
-                        <div  className="col-md-4" key={card.id}>
+                        <div  className="col-md-4 col-sm-6 col-xs-12 mb-4" key={card.id}>
                             <Card title={card.title} image={card.image} route={card.route}/>
                         </div>
                     ))
