@@ -119,7 +119,7 @@ p {
     line-height: 1;
   }
 }
-.btn {
+.btn-gr {
   text-transform: uppercase;
   background: transparent;
   color: var(--clr-black);
@@ -133,23 +133,23 @@ p {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: var(--radius);
 }
-.btn:hover {
+.btn-gr:hover {
   color: var(--clr-white);
   background: var(--clr-black);
 }
 /* section */
-.section {
+.section-gr {
   padding: 5rem 0;
 }
 
-.section-center {
+.section-center-gr {
   width: 90vw;
   margin: 0 auto;
   max-width: 35rem;
   margin-top: 8rem;
 }
 @media screen and (min-width: 992px) {
-  .section-center {
+  .section-center-gr {
     width: 95vw;
   }
 }
@@ -163,17 +163,17 @@ main {
 Grocery List
 ===============
 */
-.section-center {
+.section-center-gr {
   background: var(--clr-white);
   border-radius: var(--radius);
   box-shadow: var(--light-shadow);
   transition: var(--transition);
   padding: 2rem;
 }
-.section-center:hover {
+.section-center-gr:hover {
   box-shadow: var(--dark-shadow);
 }
-.alert {
+.alert-gr {
   margin-bottom: 1rem;
   height: 1.25rem;
   display: grid;
@@ -184,24 +184,24 @@ Grocery List
   letter-spacing: var(--spacing);
   text-transform: capitalize;
 }
-.alert-danger {
+.alert-danger-gr {
   color: #721c24;
   background: #f8d7da;
 }
-.alert-success {
+.alert-success-gr {
   color: #155724;
   background: #d4edda;
 }
-.grocery-form h3 {
+.grocery-form-gr h3 {
   color: var(--clr-primary-1);
   margin-bottom: 1.5rem;
   text-align: center;
 }
-.form-control {
+.form-control-gr {
   display: flex;
   justify-content: center;
 }
-.grocery {
+.grocery-gr {
   padding: 0.25rem;
   padding-left: 1rem;
   background: var(--clr-grey-10);
@@ -212,11 +212,11 @@ Grocery List
   flex: 1 0 auto;
   color: var(--clr-grey-5);
 }
-.grocery::placeholder {
+.grocery-gr::placeholder {
   font-family: var(--ff-secondary);
   color: var(--clr-grey-5);
 }
-.submit-btn {
+.submit-btn-gr {
   background: var(--clr-primary-8);
   border-color: transparent;
   flex: 0 0 5rem;
@@ -232,16 +232,16 @@ Grocery List
   transition: var(--transition);
   font-size: 0.85rem;
 }
-.submit-btn:hover {
+.submit-btn-gr:hover {
   background: var(--clr-primary-5);
   color: var(--clr-white);
 }
 
-.grocery-container {
+.grocery-container-gr {
   margin-top: 2rem;
 }
 
-.grocery-item {
+.grocery-item-gr {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -251,21 +251,21 @@ Grocery List
   border-radius: var(--radius);
   text-transform: capitalize;
 }
-.grocery-item:hover {
+.grocery-item-gr:hover {
   color: var(--clr-grey-5);
   background: var(--clr-grey-10);
 }
-.grocery-item:hover .title {
+.grocery-item-gr:hover .title {
   color: var(--clr-grey-5);
 }
-.title {
+.title-gr {
   margin-bottom: 0;
   color: var(--clr-grey-1);
   letter-spacing: 2px;
   transition: var(--transition);
 }
-.edit-btn,
-.delete-btn {
+.edit-btn-gr,
+.delete-btn-gr {
   background: transparent;
   border-color: transparent;
   cursor: pointer;
@@ -273,19 +273,19 @@ Grocery List
   margin: 0 0.15rem;
   transition: var(--transition);
 }
-.edit-btn {
+.edit-btn-gr {
   color: var(--clr-green-light);
 }
-.edit-btn:hover {
+.edit-btn-gr:hover {
   color: var(--clr-green-dark);
 }
-.delete-btn {
+.delete-btn-gr {
   color: var(--clr-red-light);
 }
-.delete-btn:hover {
+.delete-btn-gr:hover {
   color: var(--clr-red-dark);
 }
-.clear-btn {
+.clear-btn-gr {
   text-transform: capitalize;
   width: 10rem;
   height: 1.5rem;
@@ -301,6 +301,6 @@ Grocery List
   transition: var(--transition);
   margin-top: 1.25rem;
 }
-.clear-btn:hover {
+.clear-btn-gr:hover {
   color: var(--clr-red-dark);
 }
