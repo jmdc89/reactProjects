@@ -4,6 +4,15 @@ import Alert from './Alert'
 
 import './grocery.css';
 
+const getLocalStorage = () => {
+  let list = localStorage.getItem('list');
+  if (list) {
+    return (list = JSON.parse(localStorage.getItem('list')));
+  } else {
+    return [];
+  }
+};
+
 function Grocery() {
   const [name, setName] = useState('');
   const [list, setList] = useState(getLocalStorage());
@@ -60,28 +69,28 @@ function Grocery() {
   }, [list]);
 
   return (
-    <section className='section-center'>
-      <form className='grocery-form' onSubmit={handleSubmit}>
+    <section className='section-center-gr'>
+      <form className='grocery-form-gr' onSubmit={handleSubmit}>
         {alert.show && <Alert {...alert} removeAlert={showAlert} list={list} />}
 
         <h3>grocery bud</h3>
-        <div className='form-control'>
+        <div className='form-control-gr'>
           <input
             type='text'
-            className='grocery'
+            className='grocery-gr'
             placeholder='e.g. eggs'
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
-          <button type='submit' className='submit-btn'>
+          <button type='submit' className='submit-btn-gr'>
             {isEditing ? 'edit' : 'submit'}
           </button>
         </div>
       </form>
       {list.length > 0 && (
-        <div className='grocery-container'>
+        <div className='grocery-container-gr'>
           <List items={list} removeItem={removeItem} editItem={editItem} />
-          <button className='clear-btn' onClick={clearList}>
+          <button className='clear-btn-gr' onClick={clearList}>
             clear items
           </button>
         </div>
