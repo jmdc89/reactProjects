@@ -10,6 +10,7 @@ import MenuApp from '../05menu/App';
 import Tabs from '../06tabs/App';
 import LoremIpsum from '../08loremipsum/App';
 import ColorGenerator from '../09colorgenerator/App';
+import Grocery from '../10grocerybud/App';
 
 
 
@@ -27,6 +28,7 @@ export const AppRouter = () => {
                     <Route path="/tabs" component={Tabs}/>
                     <Route path="/loremipsum" component={LoremIpsum}/>
                     <Route path="/colorgenerator" component={ColorGenerator}/>
+                    <Route path="/grocerybud" component={Grocery}/>
                     <Route exact path="/" component={AppCards}/>
                     <Route component={AppCards}/>
                 </Switch>

@@ -10,6 +10,7 @@ import menu from '../assets/05menu.png';
 import tabs from '../assets/06tabs.png';
 import loremipsum from '../assets/08loremipsum.png';
 import colorgenerator from '../assets/09colorgenerator.png';
+import grocerybud from '../assets/10grocerybud.png';
 
 const cards = [
     {
@@ -59,6 +60,12 @@ const cards = [
         title: 'Color Gen.',
         image: colorgenerator,
         route: "/colorgenerator"
+    },
+    {
+        id:8,
+        title: 'Grocery Bud',
+        image: grocerybud,
+        route: "/grocerybud"
     },
 ]
 

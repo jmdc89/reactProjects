@@ -6,13 +6,13 @@ import 'animate.css/animate.min.css';
 
 
 import { AppRouter } from './components/AppRouter';
-import Grocery from './10grocerybud/App';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
-   {/* <AppRouter/> */}
-   <Grocery/>
+   <AppRouter/>
+   
   </React.StrictMode>,
   document.getElementById('root')
 );
