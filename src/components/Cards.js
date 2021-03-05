@@ -56,7 +56,7 @@ const cards = [
     },
     {
         id:8,
-        title: 'Color Generator',
+        title: 'Color Gen.',
         image: colorgenerator,
         route: "/colorgenerator"
     },
@@ -67,7 +67,7 @@ function Cards() {
     return (
         
         <div className="container d-flex justify-content-center h-100 align-items-center">
-            <div className="row">
+            <div className="row m-md-auto m-sm-auto">
                 {
                     cards.map( card =>(
                         <div  className="col-md-4 col-sm-6 col-xs-12 mb-4" key={card.id}>
