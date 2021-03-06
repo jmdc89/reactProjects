@@ -13,7 +13,7 @@ function Card({title, image, route}) {
             </div>   
             <div className="card-body text-light">
                 {/* <h4 className="card-title">{title}</h4> */}
-                <Link to={route} target="_blank" className="btn btn-outline-secondary rounded-0 card-title">
+                <Link to={route} className="btn btn-outline-secondary rounded-0 card-title">
                     {title}
                 </Link>
             </div>
