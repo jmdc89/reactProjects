@@ -73,7 +73,7 @@ function Cards() {
 
     return (
         
-        <div className="container d-flex justify-content-center h-100 align-items-center">
+        <div className="container d-flex">
             <div className="row m-md-auto m-sm-auto">
                 {
                     cards.map( card =>(
